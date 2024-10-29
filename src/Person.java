@@ -8,7 +8,7 @@
  //Classe Person
 public class Person{
 
-    //Attributi della classe (proprietà)
+    //dichiaro delle variabili -> attributi della classe (proprietà)
        //chiave = valore
     String name = "Luca";
 
@@ -23,11 +23,10 @@ public class Person{
     String cap = "00133";
 
 
-    //Metodi (funzioni) -> azioni che le classi possono compiere
+    //dichiaro dei metodi (funzioni) -> azioni che le classi possono compiere
     void greed(){
         System.out.println("PersonOne: " + "Ciao sono " + name);
     }
-
 
     void birthday(){
         System.out.println("PersonTwo: " + "Oggi " + name + " compie: " + age);

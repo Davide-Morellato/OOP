@@ -14,7 +14,9 @@ public class App {
          */
 
         //tipo di dato     nome oggetto         creazione oggetto
-            Person           personOne      =      new Person();  // =>  Istanza della Classe Person
+        //   Person           personOne      =      new Person();   =>  Istanza della Classe Person
+        Person personOne = new Person();
+
         
         //Stampo una proprietà della classe Person
         //accedo alla proprietà name:
@@ -25,6 +27,7 @@ public class App {
 
         //Invoco il metodo della classe Person
         personOne.greed();
+
 
         ///////////////////////////////////////////////////////////////////
         //
